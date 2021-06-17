@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: root
+    password: admin
+    url: jdbc:mysql:///springboot
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.lionlemon.springbootmybatis.domain
+#config-location:# 指定mybatis的核心配置文件
